@@ -11,7 +11,7 @@ jobs:
     uses: clouddrove/github-shared-workflows/.github/workflows/terraform_workflow.yml@master
         
     with:  
-        working_directory: "./prod/"
+        working_directory: "./dev/"
         provider: aws
         aws_region: us-east-1
         destroy: false       
